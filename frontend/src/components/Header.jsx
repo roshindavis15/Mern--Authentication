@@ -20,7 +20,7 @@ const Header = () => {
         dispatch(logout());
         navigate ('/');
     } catch (err) {
-        console.log(err);
+        console.log(err);   
     }
     }
     return (
